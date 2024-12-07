@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Game</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
 </head>
 <body>
+    <div class="main">
+        <div class="Dice">DICE GAME</div>
+        <div class="terms">
+            <p  class="play">Let's Play! </p>
+            <p class="play">Click "Turn" to roll the dice.</p>
+            <p class="play">You Win: If the sum of both dice equals 7 or 11.</p>
+            <p class="play">You Lose: If the sum of both dice equals 2,5 & 12</p>
+            <p class="play">For all other sums, you get another chance to roll!</p>
+
+        </div>
+    </div>
     <div class="container">
         <div class="Boxes1">
         <div id="box1">FIRST DICE</div>
-        <div class="img1"></div>
+        <div class="img1">
+            <img  src="./Diceimg/491902266-3_5607.avif" alt="" srcset="">
+        </div>
     </div>
     <div class="Boxes1">
         <span id="box2">SECOND DICE</span>
-        <div class="img2"></div>
+        <div class="img2">
+            <img src="./Diceimg/491902266-3_5607.avif" alt="" srcset="">
+        </div>
     </div>
        
 
@@ -22,8 +40,8 @@
     </div>
     <span class="fillbox">RESULT</span>
     <div class="control">
-    <button class="turn">TURN</button>
-    <button class="turn2">CLEAR</button>
+    <button class="turn"><i class="bi bi-play-circle"></i></button>
+    <button class="turn2"><i class="bi bi-arrow-clockwise"></i></button>
 </div>
 
 
