@@ -1,4 +1,7 @@
 
+body{
+    background-color: black;
+}
 
 
 .container{
@@ -13,7 +16,6 @@
 
 .Boxes1{
     margin-top: 3rem;
-    background-color: brown;
     width: 300px;
     height: 300px;
     gap: 2rem;
@@ -21,22 +23,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 10%;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
    
     
 
 }
 
 #box1{
-    color: white;
+    color: rgb(77, 18, 18);
     font-size: 2rem;
     font-weight: 600;
     border-radius: 10px;
 
 }
 .img1{
-    background-color: brown;
+    background-color: rgba(42, 63, 165, 0.176);
+    /* opacity: 0.5; */
     display: flex;
     flex-direction: column;
 
@@ -48,7 +55,7 @@
 .img2{
     /* width: 200px;
     height: 200px; */
-    background-color: brown;
+    background-color:rgba(157, 19, 104, 0.176);
     display: flex;
     flex-direction: column;
     background-size: contain;
@@ -80,8 +87,8 @@
    
 }
 #box2{
-    background-color: brown;
-    color: white;
+    /* background-color: brown; */
+    color: rgb(77, 18, 18);
     font-size: 2rem;
     font-weight: 600;
     border-radius: 10px;
@@ -163,9 +170,16 @@ box-shadow: 10px 10px 5px 0px rgba(165,42,42,1);
     justify-content: center;
 }
 .play{
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 10px;
+    background-color: #ae999927;
+    font-size: 15px;
+    color: white;
+}
+
+.play:hover{
+    transform: scale(110%);
 }
 
 

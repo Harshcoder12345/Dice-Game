@@ -13,6 +13,9 @@ console.log(img)
 
 
 
+
+
+
 const SumFunc =()=>{
     const RandomNumber = () =>{
         let a = Math.floor(Math.random()*6+1)
